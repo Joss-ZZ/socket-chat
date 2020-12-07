@@ -13,7 +13,7 @@ function renderizarUsuarios(personas) { // [{},{},{}]
     console.log(personas);
 
     let html = `<li>
-                    <a href="javascript:void(0)" class="active"> Chat de <span>${params.get('sala')}</span></a>
+                    <a href="javascript:void(0)" class="active"> Chat de <span>${sala}</span></a>
                </li>`;
 
 
